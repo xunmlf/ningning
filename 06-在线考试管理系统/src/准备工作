@@ -1,0 +1,23 @@
+任务 ： 用户信息管理系统
+
+子任务：
+       用户信息注册
+       用户信息查询
+       用户信息删除
+       用户信息更新
+
+
+准备工作：1：创建用户信息表 users
+
+         create table  users(
+                    userId int primary key auto_increment,
+                    userName varchar(50),
+                    password varchar(50),
+                    sex varchar(10),
+                    email varchar(255)
+                    );
+
+
+                    insert into user values(1,'mike','123','men','mike@163.com');
+
+         2:在src下面 com.bjpowernode.entity.Users 实体类
